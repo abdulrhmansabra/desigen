@@ -1,0 +1,187 @@
+/* ==========================================================================
+   SABRA UI Design System - Complete Component Library
+   Dark Theme / Glassmorphism / Neumorphic Glows
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --bg-main: #07080a;
+  --bg-card: rgba(18, 19, 26, 0.75);
+  --bg-card-hover: rgba(26, 27, 38, 0.85);
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --border-active: rgba(168, 85, 247, 0.4);
+  
+  --accent-purple: #a855f7;
+  --accent-pink: #ec4899;
+  --accent-blue: #3b82f6;
+  --accent-cyan: #06b6d4;
+  
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-muted: #64748b;
+  
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  
+  --shadow-glow-purple: 0 0 25px rgba(168, 85, 247, 0.35);
+  --shadow-glow-pink: 0 0 25px rgba(236, 72, 153, 0.35);
+  --shadow-card: 0 20px 40px -15px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-primary);
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Glassmorphism Card Base */
+.sabra-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.sabra-card:hover {
+  border-color: rgba(255, 255, 255, 0.16);
+  transform: translateY(-2px);
+}
+
+/* Button Variants */
+.sabra-btn {
+  display: inline-flex;
+  items-center: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 10px 20px;
+  border-radius: var(--radius-md);
+  font-size: 0.875rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  border: 1px solid transparent;
+  outline: none;
+}
+
+.sabra-btn-primary {
+  background: linear-gradient(135deg, var(--accent-pink) 0%, var(--accent-purple) 100%);
+  color: white;
+  box-shadow: var(--shadow-glow-purple);
+}
+.sabra-btn-primary:hover {
+  filter: brightness(1.15);
+  transform: scale(1.02);
+}
+
+.sabra-btn-secondary {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: var(--border-subtle);
+  color: var(--text-primary);
+}
+.sabra-btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.sabra-btn-glow {
+  background: rgba(168, 85, 247, 0.15);
+  border-color: rgba(168, 85, 247, 0.4);
+  color: #d8b4fe;
+  box-shadow: 0 0 15px rgba(168, 85, 247, 0.2);
+}
+.sabra-btn-glow:hover {
+  background: rgba(168, 85, 247, 0.25);
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
+}
+
+.sabra-btn-ghost {
+  background: transparent;
+  border-color: var(--border-subtle);
+  color: var(--text-secondary);
+}
+.sabra-btn-ghost:hover {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+/* Form Inputs */
+.sabra-input-group {
+  position: relative;
+  width: 100%;
+}
+.sabra-input {
+  width: 100%;
+  background: rgba(10, 11, 15, 0.8);
+  border: 1px solid var(--border-subtle);
+  padding: 10px 16px;
+  border-radius: var(--radius-md);
+  color: white;
+  font-size: 0.875rem;
+  transition: all 0.2s ease;
+}
+.sabra-input:focus {
+  outline: none;
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.2);
+}
+
+/* Custom Segmented Control / Toggle */
+.sabra-segmented {
+  background: rgba(10, 11, 15, 0.9);
+  padding: 4px;
+  border-radius: var(--radius-md);
+  display: flex;
+  gap: 4px;
+  border: 1px solid var(--border-subtle);
+}
+.sabra-segmented-btn {
+  flex: 1;
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+  color: var(--text-muted);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.sabra-segmented-btn.active {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Credit Card Halftone Gradient Pattern */
+.credit-card-bg {
+  background: radial-gradient(circle at 80% 20%, rgba(99, 102, 241, 0.3) 0%, transparent 50%),
+              radial-gradient(circle at 20% 80%, rgba(236, 72, 153, 0.25) 0%, transparent 50%),
+              #07080d;
+}
+.halftone-dots {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.3) 1.5px, transparent 1.5px);
+  background-size: 14px 14px;
+}

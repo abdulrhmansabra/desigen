@@ -1,15 +1,21 @@
-# PixVerse-Inspired UI Component Library
+# SABRA UI - Complete Dark Component Library
 
-The component library has been extracted into this repository.
+مكتبة عناصر وتصاميم واجهات مستخدم داكنة (Dark UI System) مستوحاة ومطابقة بالكامل لتصاميم **DesignCode UI**.
 
-- [Interactive Arabic RTL catalogue](index.html)
-- [Arabic guide](README_AR.md)
-- [CSS design tokens](css/tokens.css)
-- [Reusable component styles](css/components.css)
-- [Design tokens JSON](tokens/design-tokens.json)
-- [Android migration guide](docs/ANDROID_MAPPING_AR.md)
-- [Component inventory](docs/COMPONENT_INVENTORY_AR.md)
-- [Research notes](docs/RESEARCH_NOTES_AR.md)
+## 📁 هيكل المشروع (Project Structure):
 
-This is an independent, PixVerse-inspired reference library, not an official PixVerse package.
-Open index.html in a browser to browse the catalogue.
+```
+sabra_ui/
+├── index.html        # توثيق وتطبيق تفاعلي لكافة المكونات
+├── css/
+│   └── sabra-ui.css  # ملف أنماط CSS المخصص (Glassmorphism + Glows)
+├── js/
+│   └── sabra-ui.js   # الملف التفاعلي (الأزرار، التبديل، والأيقونات)
+└── README.md         # دليل الاستخدام
+```
+
+## 🚀 المميزات المضافة (SABRA Touch):
+1. **Glassmorphism & Depth**: خلفيات زجاجية شفافة مع تعتيم زجاجي خفيف وحواف مضيئة.
+2. **Interactive Controls**: أزرار تفاعلية مع أنماط Glowing و Glass و Ghost.
+3. **Credit Card Halftone**: تصميم بطاقة الفيزا بدقة مع النمط النقطي الملائم.
+4. **Clean Code Structure**: فصل كامل لملفات CSS و JS و HTML لسهولة الدمج في أي مشروع.
