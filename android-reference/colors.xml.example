@@ -1,0 +1,15 @@
+<!-- Reference tokens only: merge carefully into the target project's colors.xml -->
+<resources>
+    <color name="pv_background">#08090B</color>
+    <color name="pv_background_elevated">#0E0F13</color>
+    <color name="pv_surface">#141318</color>
+    <color name="pv_surface_raised">#1D1921</color>
+    <color name="pv_text_primary">#F7F4F8</color>
+    <color name="pv_text_secondary">#A19BA7</color>
+    <color name="pv_pink">#ED3F82</color>
+    <color name="pv_purple">#7A48F2</color>
+    <color name="pv_orange">#FF9A58</color>
+    <color name="pv_success">#42D6A4</color>
+    <color name="pv_warning">#FFB547</color>
+    <color name="pv_error">#FF5475</color>
+</resources>

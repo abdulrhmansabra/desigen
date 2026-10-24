@@ -1,0 +1,15 @@
+// Reference snippet: copy into a Compose project and adapt imports/dependencies.
+@Composable
+fun PixVerseCreditPill(credits: String, modifier: Modifier = Modifier) {
+    Row(
+        modifier = modifier
+            .clip(RoundedCornerShape(999.dp))
+            .background(Color(0xFF1C1821))
+            .padding(horizontal = 13.dp, vertical = 9.dp),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.spacedBy(7.dp)
+    ) {
+        Text("⚡", color = Color(0xFFFFCA63))
+        Text(credits, color = Color.White, fontWeight = FontWeight.SemiBold)
+    }
+}

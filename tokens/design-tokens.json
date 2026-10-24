@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "name": "PixVerse-inspired UI foundations",
+    "version": "2.0.0",
+    "note": "Design approximation based on official public product descriptions and the user-provided mobile profile screenshot; not an official PixVerse design kit."
+  },
+  "colors": {
+    "background": "#08090B",
+    "backgroundElevated": "#0E0F13",
+    "surface": "#141318",
+    "surfaceRaised": "#1D1921",
+    "surfacePressed": "#29242E",
+    "textPrimary": "#F7F4F8",
+    "textSecondary": "#A19BA7",
+    "textTertiary": "#6F6A75",
+    "borderSubtle": "rgba(255,255,255,0.08)",
+    "borderStrong": "rgba(255,255,255,0.16)",
+    "pink": "#ED3F82",
+    "magenta": "#D83AAE",
+    "purple": "#7A48F2",
+    "orange": "#FF9A58",
+    "gradientPrimary": "linear-gradient(110deg, #FF9A58 0%, #ED3F82 48%, #7A48F2 100%)",
+    "gradientDark": "linear-gradient(110deg, #2C211F 0%, #35172A 100%)",
+    "success": "#42D6A4",
+    "warning": "#FFB547",
+    "error": "#FF5475",
+    "info": "#55B9FF"
+  },
+  "spacingPx": {
+    "0": 0,
+    "1": 4,
+    "2": 8,
+    "3": 12,
+    "4": 16,
+    "5": 20,
+    "6": 24,
+    "8": 32,
+    "10": 40,
+    "12": 48,
+    "16": 64
+  },
+  "radiusPx": {
+    "xs": 8,
+    "sm": 12,
+    "md": 16,
+    "lg": 22,
+    "xl": 28,
+    "pill": 999
+  },
+  "typography": {
+    "fontFamily": "Inter, Segoe UI, Roboto, Arial, sans-serif",
+    "display": {
+      "size": 36,
+      "weight": 750,
+      "lineHeight": 1.1
+    },
+    "h1": {
+      "size": 30,
+      "weight": 700,
+      "lineHeight": 1.2
+    },
+    "h2": {
+      "size": 24,
+      "weight": 680,
+      "lineHeight": 1.25
+    },
+    "h3": {
+      "size": 18,
+      "weight": 650,
+      "lineHeight": 1.35
+    },
+    "body": {
+      "size": 14,
+      "weight": 400,
+      "lineHeight": 1.6
+    },
+    "label": {
+      "size": 12,
+      "weight": 600,
+      "lineHeight": 1.4
+    },
+    "caption": {
+      "size": 10,
+      "weight": 500,
+      "lineHeight": 1.4
+    }
+  },
+  "motion": {
+    "fastMs": 120,
+    "normalMs": 200,
+    "slowMs": 320,
+    "easing": "cubic-bezier(.2,.8,.2,1)"
+  }
+}
