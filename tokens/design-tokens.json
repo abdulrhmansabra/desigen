@@ -1,20 +1,20 @@
 {
   "meta": {
-    "name": "Vidora AI dark glossy UI foundations",
-    "version": "2.0.0",
-    "note": "Dark polished-surface design system aligned to the user-provided darkkkk.jpeg reference; no glassmorphism."
+    "name": "Vidora AI polished dark reference system",
+    "version": "3.0.0",
+    "note": "Reference-wide polished black surfaces with restrained highlights and no glassmorphism. Preserve the approved cyan-indigo-fuchsia primary gradient."
   },
   "colors": {
-    "background": "#08090B",
-    "backgroundElevated": "#101015",
-    "surface": "#121218",
-    "surfaceRaised": "#1B1A22",
-    "surfacePressed": "#25232D",
-    "textPrimary": "#F7F4F8",
-    "textSecondary": "#A19BA7",
-    "textTertiary": "#6F6A75",
-    "borderSubtle": "rgba(255,255,255,0.075)",
-    "borderStrong": "rgba(255,255,255,0.15)",
+    "background": "#050506",
+    "backgroundElevated": "#0B0B0E",
+    "surface": "#101013",
+    "surfaceRaised": "#17171C",
+    "surfacePressed": "#202026",
+    "textPrimary": "#F8F8FA",
+    "textSecondary": "#B7B7C0",
+    "textTertiary": "#777780",
+    "borderSubtle": "rgba(255,255,255,0.105)",
+    "borderStrong": "rgba(255,255,255,0.19)",
     "pink": "#FF18C8",
     "cyan": "#00E5FF",
     "blue": "#087BFF",
