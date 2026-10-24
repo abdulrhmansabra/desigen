@@ -164,8 +164,25 @@ body{background:radial-gradient(ellipse at 82% -12%,rgba(87,60,255,.09),transpar
   box-shadow:none;
 }
 
-/* Global design rule: absolutely no shadows on any component, state, or pseudo-element. */
+/* Global glow removal: preserve colors and gradients, remove every glow/shadow effect. */
 *, *::before, *::after {
   box-shadow: none !important;
   text-shadow: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+body {
+  background: #08090b !important;
+}
+.hero {
+  background: linear-gradient(120deg, #17131b, #0c0d12) !important;
+}
+.hero-art .orb {
+  display: none !important;
+}
+.media-thumb {
+  background: linear-gradient(135deg, #312452, #ed8c9e 48%, #3a275c) !important;
+}
+.template-art {
+  background: linear-gradient(135deg, #4b3279, #ed7199, #272347) !important;
 }
