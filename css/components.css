@@ -388,3 +388,31 @@ body{background:#0b0c10}
 .btn:hover,.icon-btn:hover,.panel:hover,.media-card:hover,.template-card:hover{box-shadow:none !important}
 .orb{filter:none;box-shadow:none}
 .hero{background:#15151b}
+
+
+/* VIDORA AI — satin-matte finish: soft surface sheen, never glassy or mirror-gloss.
+   Keep all surfaces shadow-free and glow-free; the sheen comes from restrained tonal gradients. */
+.side-foot{background:linear-gradient(155deg,#1b1c23 0%,#15161c 58%,#121318 100%)}
+.panel{background:linear-gradient(155deg,#1c1d24 0%,#17181e 52%,#14151a 100%)}
+.demo{background:linear-gradient(155deg,#191a21 0%,#15161c 100%)}
+.hero{background:linear-gradient(145deg,#1b1b23 0%,#15151c 58%,#111217 100%)}
+.glass-tile{background:linear-gradient(145deg,#282932 0%,#202129 55%,#1a1b22 100%)}
+.btn-secondary{background:linear-gradient(180deg,#30313a 0%,#282932 52%,#22232b 100%)}
+.btn-outline{background:linear-gradient(180deg,#1d1e25 0%,#17181e 100%)}
+.btn-shiny{background:linear-gradient(180deg,#2b2c35 0%,#23242c 55%,#1d1e25 100%)}
+.btn-glow{background:linear-gradient(145deg,#292633 0%,#22212b 60%,#1b1a23 100%)}
+.icon-btn{background:linear-gradient(150deg,#2d2e37 0%,#24252d 58%,#1d1e25 100%)}
+.badge{background:linear-gradient(180deg,#2b2c34 0%,#24252d 100%)}
+.chip{background:linear-gradient(180deg,#202129 0%,#1a1b21 100%)}
+.credit{background:linear-gradient(180deg,#25262e 0%,#1d1e25 100%)}
+.media-card,.template-card{background:linear-gradient(155deg,#1c1d24 0%,#17181e 62%,#14151a 100%)}
+.play{background:linear-gradient(145deg,#22232b 0%,#17181e 100%)}
+.field input,.field textarea,.field select,.control,.input-wrap{background:linear-gradient(180deg,#15161c 0%,#101116 100%)}
+.alert,.dialog-preview{background:linear-gradient(155deg,#1c1d24 0%,#17181e 72%,#14151a 100%)}
+.toast{background:linear-gradient(145deg,#14231f 0%,#10201b 100%)}
+.asset-card{background:linear-gradient(155deg,#17181e 0%,#111216 100%)}
+.asset-preview{background:linear-gradient(145deg,#101116 0%,#090a0e 100%)}
+.nav a:hover,.nav a.active{background:linear-gradient(180deg,#25262f 0%,#1d1e26 100%)}
+.brand-mark,.btn-primary,.icon-btn.add,.nav-item.create .glyph{
+  box-shadow:none !important;
+}
