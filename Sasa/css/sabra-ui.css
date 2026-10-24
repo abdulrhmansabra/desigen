@@ -186,8 +186,16 @@ body {
   background-size: 14px 14px;
 }
 
-/* Global rule requested: no shadows on any component or pseudo-element. */
+/* Global glow removal: preserve the palette while eliminating all glow and shadow effects. */
 *, *::before, *::after {
   box-shadow: none !important;
   text-shadow: none !important;
+  filter: none !important;
+  -webkit-filter: none !important;
+}
+.sabra-btn:focus,
+.sabra-btn:focus-visible,
+.sabra-input:focus,
+.sabra-segmented-btn.active {
+  box-shadow: none !important;
 }
