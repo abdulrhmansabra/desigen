@@ -484,3 +484,27 @@ body{background:#0b0c10}
 .screen-background-demo b{font-size:14px}
 .screen-background-demo p{font-size:12px;line-height:1.7;margin:6px 0 0}
 @media(max-width:640px){.screen-background-demo{align-items:flex-start;gap:12px;padding:12px}.screen-background-preview{flex-basis:104px;height:138px}.image-field-frame{min-height:190px}.image-placeholder{min-height:168px}}
+
+
+/* Image field interaction states and reusable loading / success / error feedback. */
+.image-field-frame.is-dragging{border-color:#8c78ff;background:linear-gradient(145deg,rgba(87,60,255,.13),rgba(255,24,200,.04))}
+.image-file-input{display:none}
+.image-preview{display:block;width:100%;max-height:280px;min-height:188px;object-fit:contain;border-radius:10px;background:#090a0e}
+.image-file-actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin-top:10px}
+.image-file-name{flex:1;min-width:90px;overflow-wrap:anywhere;color:#d7d3e3;font-size:11px}
+.image-status{display:block;min-height:16px}
+.component-states{display:grid;gap:8px;margin-top:8px}
+.component-state{display:flex;align-items:center;gap:10px;min-width:0;padding:11px 12px;border:1px solid #2c2d37;border-radius:12px;background:linear-gradient(145deg,#191a21,#13141a)}
+.component-state>div{display:flex;flex:1;min-width:0;flex-direction:column;gap:3px}
+.component-state b{font-size:12px;color:#f4f2f8}
+.component-state small{font-size:10px;color:#a7a4b2}
+.state-mark{display:grid;place-items:center;width:28px;height:28px;flex:0 0 28px;border-radius:9px;font-weight:800}
+.state-loading .state-mark{color:#d6c8ff;background:#30274a}
+.state-success{border-color:#24473f}
+.state-success .state-mark{color:#7ce7bd;background:#17352e}
+.state-error{border-color:#4b2b35}
+.state-error .state-mark{color:#ff9ab4;background:#3b202b}
+.state-track{height:3px;width:56px;overflow:hidden;border-radius:4px;background:#2a2934}
+.state-track i{display:block;width:62%;height:100%;border-radius:4px;background:linear-gradient(90deg,#00E5FF,#573CFF,#FF18C8)}
+body{background:radial-gradient(ellipse 95% 34% at 52% -8%,rgba(91,48,130,.19) 0%,rgba(66,35,92,.08) 42%,transparent 76%),#0b0c10}
+@media(max-width:640px){.image-preview{min-height:150px}.image-file-actions{gap:6px}.image-file-name{flex-basis:100%}}
