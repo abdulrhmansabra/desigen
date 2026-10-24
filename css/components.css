@@ -250,7 +250,7 @@ vidora-icon.vidora-icon-missing {
 }
 
 
-/* Upgrade + invitation items — content only, no card surface. */
+/* Upgrade + invitation items — transparent surface, gradient on content only. */
 .promo{
   position:relative;
   display:flex;
@@ -273,6 +273,7 @@ vidora-icon.vidora-icon-missing {
 .promo::after{content:none !important;display:none !important}
 .promo:hover{
   background:transparent !important;
+  background-image:none !important;
   border-color:transparent !important;
   opacity:.88;
   box-shadow:none !important;
@@ -282,10 +283,16 @@ vidora-icon.vidora-icon-missing {
 .promo.neutral{
   background:transparent !important;
   background-image:none !important;
+  border:0 !important;
+  box-shadow:none !important;
 }
 .promo b{
   display:block;
-  color:#fff;
+  background-image:linear-gradient(110deg,#00E5FF 0%,#573CFF 52%,#FF18C8 100%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  -webkit-text-fill-color:transparent;
   font-size:clamp(14px,1.35vw,17px);
   font-weight:700;
   letter-spacing:-.15px;
@@ -306,10 +313,17 @@ vidora-icon.vidora-icon-missing {
   flex:0 0 38px;
   border:0 !important;
   border-radius:0;
-  background:transparent !important;
-  color:#fff;
+  background-image:linear-gradient(110deg,#00E5FF 0%,#573CFF 52%,#FF18C8 100%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  -webkit-text-fill-color:transparent;
   font-size:24px;
   line-height:1;
+}
+.promo.invite b,
+.promo.invite .emoji{
+  background-image:linear-gradient(110deg,#573CFF 0%,#00E5FF 100%);
 }
 @media(max-width:640px){
   .promo{min-height:64px;padding:8px 0;gap:10px}
