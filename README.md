@@ -1,6 +1,6 @@
-# PixVerse-Inspired UI Component Library
+# Vidora AI — Reusable UI Component Library
 
-The component library has been extracted into this repository.
+This repository is a reusable UI component library for Vidora AI. It documents and demonstrates individual components, variants, design tokens, and assets—not complete application screens.
 
 - [Interactive Arabic RTL catalogue](index.html)
 - [Arabic guide](README_AR.md)
@@ -11,5 +11,5 @@ The component library has been extracted into this repository.
 - [Component inventory](docs/COMPONENT_INVENTORY_AR.md)
 - [Research notes](docs/RESEARCH_NOTES_AR.md)
 
-This is an independent, PixVerse-inspired reference library, not an official PixVerse package.
+The catalogue is component-focused. Examples are shown to explain individual components and should not be treated as finished app screens.
 Open index.html in a browser to browse the catalogue.
