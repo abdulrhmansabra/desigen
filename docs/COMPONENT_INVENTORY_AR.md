@@ -14,7 +14,8 @@
 - Badges: new, premium, success, warning, error
 - Filter chips and removable chips
 
-## Account / Profile
+## Account components (standalone)
+هذه عناصر مستقلة وليست تخطيط شاشة ملف شخصي.
 - Avatar sizes
 - Username and handle
 - Followers / following stats
@@ -22,9 +23,10 @@
 - Subscribe button
 - Subscribe promo card
 - Invite friends promo card
-- Profile content tabs
+- Tabs كعنصر مستقل (يُوثق ضمن Navigation)
 
-## Discovery / Content
+## Content and template card components
+أمثلة للبطاقات فقط؛ لا تمثل صفحة اكتشاف كاملة.
 - Media preview card
 - Play overlay
 - Template card
@@ -40,7 +42,8 @@
 - Range slider
 - Focus states and placeholders
 
-## Creation workflow
+## Media input and creation controls
+تُعرض عناصر الإدخال والتحكم كلٌ على حدة، لا كواجهة إنشاء كاملة.
 - Text-to-video prompt panel
 - Image-to-video upload panel
 - Model selector
