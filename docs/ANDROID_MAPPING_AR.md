@@ -1,9 +1,9 @@
-# دليل نقل المكتبة إلى Android
+# دليل تحويل مكوّنات Vidora AI إلى Android
 
 ## أولًا: حدد تقنية مشروعك
 - **Jetpack Compose** إذا كان المشروع Compose.
 - **XML Views** إذا كان المشروع مبنيًا على Layout XML.
-لا تخلط المكونين عشوائيًا داخل الشاشة نفسها. استعمل هذه المكتبة كمرجع للمظهر والسلوك.
+لا تخلط المكونين عشوائيًا داخل الشاشة نفسها. استعمل هذه المكتبة مرجعًا للمكوّنات المستقلة ومظهرها وسلوكها، لا كتصميم لشاشات كاملة.
 
 ## خريطة التحويل
 
@@ -13,7 +13,7 @@
 | `.icon-btn` | `IconButton` | `ImageButton` / `MaterialButton` |
 | `.avatar` | `Box` + `CircleShape` | `ShapeableImageView` أو `TextView` دائري |
 | `.credit` | `Row` + `Surface` | `LinearLayout` أفقي + `GradientDrawable` |
-| `.promo` | `Card` / `Surface` | `MaterialCardView` |
+| `.promo` | `Button` مخصص بسطح متدرج | `MaterialButton` مخصص بتدرج |
 | `.field input` | `OutlinedTextField` مخصص | `TextInputLayout` + `TextInputEditText` |
 | `.switch` | `Switch` | `MaterialSwitch` |
 | `.chip` | `FilterChip` | `Chip` |
@@ -27,7 +27,7 @@
 ## قواعد التنفيذ
 1. استخرج ألوان `tokens/design-tokens.json` إلى `Color.kt` أو `colors.xml`.
 2. استخرج أنصاف الأقطار والمسافات إلى قيم موحدة، لا تكرر أرقامًا ثابتة في كل شاشة.
-3. أنشئ ملفات مستقلة للمكونات: `PrimaryButton`, `CreditPill`, `ProfileHeader`, `PromoCard`, `BottomNav`, `EmptyState`, `PromptField`.
+3. أنشئ ملفات مستقلة للمكونات: `PrimaryButton`, `CreditPill`, `PromoButton`, `BottomNav`, `EmptyState`, `PromptField`. لا تربط المكوّنات بتخطيط شاشة مثل `ProfileHeader` إلا إذا احتجت ذلك داخل التطبيق نفسه.
 4. عرّف حالات كل عنصر: normal, pressed, focused, disabled, loading, error, success.
 5. لا تستخدم إيموجي كأيقونات إنتاجية؛ استبدلها بحزمة Vector/Material icons أو SVG مرخصة.
 6. احترم حواف النظام وStatus Bar وNavigation Bar وInsets، خصوصًا على أجهزة Android الحديثة.
