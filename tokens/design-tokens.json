@@ -21,7 +21,7 @@
     "magenta": "#D900FF",
     "purple": "#573CFF",
     "orange": "#FFB52E",
-    "gradientPrimary": "linear-gradient(110deg, #315BFF 0%, #7040F5 52%, #D94FE5 100%)",
+    "gradientPrimary": "linear-gradient(110deg, #00E5FF 0%, #573CFF 52%, #FF18C8 100%)",
     "gradientDark": "linear-gradient(110deg, #071A36 0%, #17103D 55%, #30102F 100%)",
     "success": "#42D6A4",
     "warning": "#FFB547",
