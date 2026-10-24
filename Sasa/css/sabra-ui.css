@@ -185,3 +185,9 @@ body {
   background-image: radial-gradient(rgba(255, 255, 255, 0.3) 1.5px, transparent 1.5px);
   background-size: 14px 14px;
 }
+
+/* Global rule requested: no shadows on any component or pseudo-element. */
+*, *::before, *::after {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
