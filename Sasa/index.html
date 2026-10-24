@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SABRA UI - Design System & Component Library</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- SABRA UI CSS -->
+    <link rel="stylesheet" href="css/sabra-ui.css">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="min-h-screen text-slate-100 antialiased selection:bg-purple-500 selection:text-white">
+
+    <!-- Top Navigation -->
+    <nav class="sticky top-0 z-40 border-b border-white/10 bg-black/60 backdrop-blur-xl px-6 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-3 space-x-reverse">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-pink-500 to-purple-600 flex items-center justify-center font-black text-xl text-white shadow-lg shadow-purple-500/30">
+                    S
+                </div>
+                <div>
+                    <h1 class="font-bold text-lg leading-tight tracking-wide">SABRA UI <span class="text-xs bg-purple-500/20 text-purple-300 border border-purple-500/30 px-2 py-0.5 rounded-full font-normal">v1.0 Pro</span></h1>
+                    <p class="text-[11px] text-slate-400">مكتبة مكونات واجهات المستخدم الداكنة المصممة بدقة</p>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-4 space-x-reverse text-xs">
+                <a href="#components" class="text-slate-300 hover:text-white transition">المكونات</a>
+                <a href="#code-examples" class="text-slate-300 hover:text-white transition">أمثلة الكود</a>
+                <button class="sabra-btn sabra-btn-primary py-2 px-4 text-xs">
+                    <i data-lucide="download" class="w-4 h-4"></i> تحميل المكتبة
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="max-w-7xl mx-auto px-6 py-10 space-y-12" dir="ltr">
+
+        <!-- Banner Announcement -->
+        <div class="p-6 rounded-3xl bg-gradient-to-r from-purple-900/40 via-indigo-900/20 to-pink-900/30 border border-purple-500/20 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div class="space-y-1">
+                <span class="text-xs font-semibold uppercase tracking-wider text-purple-400">Design System Overview</span>
+                <h2 class="text-xl font-bold text-white">Full Pixel-Perfect DesignCode UI Reproduction</h2>
+                <p class="text-xs text-slate-300">Detailed components extracted with responsive CSS, glassmorphism, glowing states, and typography adjustments.</p>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="text-xs text-slate-400 font-mono">100% Match with Reference Image</span>
+            </div>
+        </div>
+
+        <!-- Section 1: All Components Extracted from Reference Image -->
+        <section id="components" class="space-y-6">
+            <h2 class="text-lg font-bold tracking-tight text-slate-200 border-l-4 border-purple-500 pl-3">1. Recreated Component Showcase</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+                <!-- COLUMN 1 -->
+                <div class="space-y-6">
+
+                    <!-- Streamline Review Card -->
+                    <div class="sabra-card p-6 relative overflow-hidden">
+                        <div class="flex justify-between items-center mb-4">
+                            <div class="flex items-center space-x-2">
+                                <i data-lucide="moon" class="w-4 h-4 text-slate-400 cursor-pointer hover:text-white"></i>
+                                <i data-lucide="sun" class="w-4 h-4 text-slate-400 cursor-pointer hover:text-white"></i>
+                            </div>
+                            <i data-lucide="shuffle" class="w-4 h-4 text-slate-500"></i>
+                        </div>
+                        <h3 class="font-bold text-lg text-white">Streamline</h3>
+                        <p class="text-xs text-slate-400 mb-3">Icon system and editor</p>
+                        <p class="text-xs text-slate-300 leading-relaxed mb-6">
+                            Thanks to Angle, I've created amazing app mockups in just a few clicks. Mockups are the best way to show to visitors how my products can be used, and they certainly boosted the conversion rate.
+                        </p>
+                        <div class="flex items-center space-x-3">
+                            <div class="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center font-bold text-xs border border-white/10">M</div>
+                            <div>
+                                <p class="text-xs font-semibold text-white">Vincent Le Moign</p>
+                                <p class="text-[10px] text-slate-400">Creator of Streamline</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Company & Interactive Buttons Collection -->
+                    <div class="sabra-card p-6 space-y-5">
+                        <div class="flex justify-between items-center">
+                            <div class="flex items-center space-x-2">
+                                <i data-lucide="asterisk" class="w-5 h-5 text-white"></i>
+                                <span class="font-bold text-sm text-white">Company</span>
+                            </div>
+                            <i data-lucide="menu" class="w-4 h-4 text-slate-400"></i>
+                        </div>
+
+                        <!-- Button Row 1 -->
+                        <div class="flex gap-2">
+                            <button class="sabra-btn sabra-btn-primary">
+                                Get Started <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                            </button>
+                            <button class="sabra-btn sabra-btn-secondary">
+                                Primary <i data-lucide="chevron-right" class="w-3.5 h-3.5"></i>
+                            </button>
+                        </div>
+
+                        <!-- Button Row 2 -->
+                        <div class="flex gap-2 pt-1">
+                            <button class="sabra-btn sabra-btn-secondary text-xs px-3 py-1.5">Shiny <i data-lucide="chevron-right" class="w-3 h-3"></i></button>
+                            <button class="sabra-btn sabra-btn-glow text-xs px-3 py-1.5">Glow <i data-lucide="chevron-right" class="w-3 h-3"></i></button>
+                            <button class="sabra-btn sabra-btn-ghost text-xs px-3 py-1.5"><i data-lucide="play" class="w-3 h-3 fill-slate-300"></i> Ghost</button>
+                        </div>
+
+                        <!-- Menu Select Row -->
+                        <div class="flex items-center gap-2 text-xs">
+                            <span class="bg-slate-800 px-3 py-1.5 rounded-lg text-slate-300 border border-white/5">Menu</span>
+                            <span class="bg-slate-800 px-3 py-1.5 rounded-lg text-slate-300 border border-white/5 flex items-center gap-1">Menu <i data-lucide="chevron-down" class="w-3 h-3"></i></span>
+                            <div class="flex gap-1 ml-auto">
+                                <button class="p-1.5 bg-slate-800 rounded-lg text-slate-400 hover:text-white"><i data-lucide="arrow-left" class="w-3.5 h-3.5"></i></button>
+                                <button class="p-1.5 bg-slate-800 rounded-lg text-slate-400 hover:text-white"><i data-lucide="arrow-right" class="w-3.5 h-3.5"></i></button>
+                            </div>
+                        </div>
+
+                        <!-- Input Email -->
+                        <div class="sabra-input-group">
+                            <input type="email" placeholder="Email address" class="sabra-input text-xs">
+                            <i data-lucide="mail" class="w-4 h-4 text-slate-500 absolute right-3 top-3"></i>
+                        </div>
+
+                        <!-- Monthly/Yearly Segmented Switcher -->
+                        <div class="sabra-segmented">
+                            <button class="sabra-segmented-btn active">Monthly</button>
+                            <button class="sabra-segmented-btn">Yearly</button>
+                        </div>
+
+                        <!-- Floating Play Player Badge -->
+                        <div class="flex items-center justify-between pt-2">
+                            <div class="w-10 h-10 rounded-full bg-slate-900 border border-white/10 flex items-center justify-center shadow-inner">
+                                <i data-lucide="play" class="w-4 h-4 text-white fill-white ml-0.5"></i>
+                            </div>
+                            <span class="text-xs font-mono text-slate-500">9:41</span>
+                        </div>
+
+                        <!-- Code Framework Badges -->
+                        <div class="flex items-center justify-between pt-2 border-t border-white/5 text-xs">
+                            <button class="px-3 py-1 bg-blue-600/20 text-blue-400 rounded-md font-semibold border border-blue-500/30">CSS</button>
+                            <button class="px-3 py-1 text-slate-400 hover:text-white">React</button>
+                            <button class="px-3 py-1 text-slate-400 hover:text-white">Tailwind</button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- COLUMN 2 -->
+                <div class="space-y-6">
+
+                    <!-- Hosted Profile Widget -->
+                    <div class="sabra-card p-5 space-y-4">
+                        <div class="flex items-center space-x-4">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150" alt="Avatar" class="w-14 h-14 rounded-full object-cover ring-2 ring-purple-500/30">
+                            <div>
+                                <h4 class="font-bold text-sm text-white">Hosted by Trang</h4>
+                                <p class="text-xs text-slate-400">Luxury, Lifestyle</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-4 pt-2 border-t border-white/5 text-xs text-slate-300">
+                            <span class="flex items-center gap-1 font-semibold"><i data-lucide="star" class="w-3.5 h-3.5 text-yellow-400 fill-yellow-400"></i> 4.9</span>
+                            <span>1,648 reviews</span>
+                            <span class="flex items-center gap-1 text-purple-400 font-medium"><i data-lucide="shield-check" class="w-3.5 h-3.5"></i> Host</span>
+                        </div>
+
+                        <div class="text-xs text-slate-400 flex items-start gap-2 pt-1">
+                            <i data-lucide="map-pin" class="w-3.5 h-3.5 text-slate-500 mt-0.5 shrink-0"></i>
+                            <span>1155 Rue Sherbrooke Ouest, Toronto, Canada H3A 2N3</span>
+                        </div>
+                    </div>
+
+                    <!-- App Mockup Carousel Widget -->
+                    <div class="sabra-card p-4 space-y-3">
+                        <div class="bg-black/60 rounded-xl p-3 border border-white/5 relative group overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=600" class="rounded-lg object-cover w-full h-44 opacity-80 group-hover:scale-105 transition duration-500" alt="Mockup">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-3">
+                                <span class="text-[11px] text-slate-300">Interactive Preview Canvas</span>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-between items-center px-1">
+                            <button class="p-1.5 rounded-lg bg-slate-800 text-slate-400 hover:text-white"><i data-lucide="chevron-left" class="w-4 h-4"></i></button>
+                            <div class="flex space-x-1.5">
+                                <span class="w-2 h-2 rounded-full bg-purple-500 shadow-sm shadow-purple-500"></span>
+                                <span class="w-2 h-2 rounded-full bg-slate-700"></span>
+                                <span class="w-2 h-2 rounded-full bg-slate-700"></span>
+                            </div>
+                            <button class="p-1.5 rounded-lg bg-slate-800 text-slate-400 hover:text-white"><i data-lucide="chevron-right" class="w-4 h-4"></i></button>
+                        </div>
+                    </div>
+
+                    <!-- Halftone VISA Credit Card -->
+                    <div class="sabra-card credit-card-bg halftone-dots p-6 h-52 flex flex-col justify-between relative overflow-hidden border-purple-500/20">
+                        <div class="flex justify-between items-center z-10">
+                            <span class="text-[10px] font-mono tracking-widest text-slate-400 uppercase">CREDIT CARD</span>
+                            <span class="font-extrabold italic text-xl tracking-wider text-white">VISA</span>
+                        </div>
+
+                        <div class="z-10 flex justify-between items-end">
+                            <div>
+                                <p class="text-[10px] text-slate-400 font-mono">CARD HOLDER</p>
+                                <p class="text-sm font-semibold text-white tracking-wide">Marisa Lu</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="text-[10px] text-slate-400 font-mono">EXPIRES</p>
+                                <p class="text-xs font-mono text-slate-200">06/24</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- COLUMN 3 -->
+                <div class="space-y-6">
+
+                    <!-- Pixel Density & Export Settings Card -->
+                    <div class="sabra-card p-5 space-y-5">
+                        <!-- Density Selector -->
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold text-slate-300 flex justify-between items-center">
+                                <span class="flex items-center gap-1.5"><i data-lucide="unfold-more" class="w-3.5 h-3.5 text-purple-400"></i> Pixel Density</span>
+                                <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-slate-500"></i>
+                            </label>
+                            <div class="sabra-segmented">
+                                <button class="sabra-segmented-btn">1x</button>
+                                <button class="sabra-segmented-btn active">2x</button>
+                                <button class="sabra-segmented-btn">3x</button>
+                                <button class="sabra-segmented-btn">4x</button>
+                            </div>
+                        </div>
+
+                        <!-- Format Selector -->
+                        <div class="space-y-2">
+                            <label class="text-xs font-bold text-slate-300 flex justify-between items-center">
+                                <span class="flex items-center gap-1.5"><i data-lucide="file-type" class="w-3.5 h-3.5 text-purple-400"></i> Format</span>
+                                <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-slate-500"></i>
+                            </label>
+                            <div class="sabra-segmented">
+                                <button class="sabra-segmented-btn active">PNG</button>
+                                <button class="sabra-segmented-btn">JPG</button>
+                                <button class="sabra-segmented-btn">WebP</button>
+                            </div>
+                        </div>
+
+                        <button class="w-full sabra-btn sabra-btn-secondary text-xs py-2.5 font-bold">
+                            Download <i data-lucide="download" class="w-3.5 h-3.5"></i>
+                        </button>
+                    </div>
+
+                    <!-- Testimonial Quote - Mogens Egeskov -->
+                    <div class="sabra-card p-5 space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150" class="w-9 h-9 rounded-full object-cover">
+                            <div>
+                                <h5 class="text-xs font-bold text-white">Mogens Egeskov</h5>
+                                <p class="text-[10px] text-purple-400">iOS Developer</p>
+                            </div>
+                        </div>
+                        <p class="text-xs text-slate-300 leading-relaxed">
+                            "My first iOS app is available on the AppStore. I literally didn't know anything about SwiftUI and in probably 4 weeks was able to recreate my android app for iOS. Highly recommend MengTo videos!"
+                        </p>
+                        <a href="#" class="inline-flex items-center text-xs font-semibold text-purple-400 hover:text-purple-300 gap-1 pt-1">
+                            Learn more <i data-lucide="chevron-right" class="w-3 h-3"></i>
+                        </a>
+                    </div>
+
+                    <!-- Navigation Drawer Menu -->
+                    <div class="sabra-card p-2 space-y-1">
+                        <a href="#" class="flex items-center justify-between p-2.5 rounded-xl text-xs text-slate-300 hover:bg-white/5 transition">
+                            <span>Account</span>
+                            <i data-lucide="user" class="w-4 h-4 text-slate-400"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-between p-2.5 rounded-xl text-xs text-blue-400 font-semibold bg-blue-500/10 border border-blue-500/20">
+                            <span>Pricing</span>
+                            <i data-lucide="rectangle-horizontal" class="w-4 h-4"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-between p-2.5 rounded-xl text-xs text-slate-300 hover:bg-white/5 transition">
+                            <span>Billing</span>
+                            <i data-lucide="receipt" class="w-4 h-4 text-slate-400"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-between p-2.5 rounded-xl text-xs text-slate-300 hover:bg-white/5 transition">
+                            <span>Settings</span>
+                            <i data-lucide="settings" class="w-4 h-4 text-slate-400"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-between p-2.5 rounded-xl text-xs text-slate-300 hover:bg-white/5 transition">
+                            <span>Support</span>
+                            <i data-lucide="help-circle" class="w-4 h-4 text-slate-400"></i>
+                        </a>
+                        <a href="#" class="flex items-center justify-between p-2.5 rounded-xl text-xs text-slate-300 hover:bg-white/5 transition">
+                            <span>Contact</span>
+                            <i data-lucide="mail" class="w-4 h-4 text-slate-400"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="pt-10 border-t border-white/10 text-center text-xs text-slate-500 space-y-2">
+            <p>SABRA UI Component Library &copy; 2026 - Designed for Developers & Designers</p>
+            <p class="font-mono text-[10px]">DESIGNCODE UI COMPONENT ENGINE REPRODUCTION</p>
+        </footer>
+
+    </div>
+
+    <script src="js/sabra-ui.js"></script>
+</body>
+</html>
