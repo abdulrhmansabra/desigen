@@ -454,3 +454,33 @@ body{background:#0b0c10}
   box-shadow: none !important;
   text-shadow: none !important;
 }
+
+
+/* Missing reusable Vidora AI components: framed image input, back top bar, screen backdrop. */
+.image-field{display:flex;flex-direction:column;gap:9px;min-width:0}
+.image-field-frame{position:relative;min-height:210px;padding:10px;border:1px solid #343244;border-radius:16px;background:linear-gradient(155deg,#191922 0%,#111218 100%);overflow:hidden}
+.image-placeholder{min-height:188px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:9px;text-align:center;border:1px dashed #48415d;border-radius:11px;background:linear-gradient(145deg,rgba(87,60,255,.075),rgba(255,24,200,.025) 55%,transparent);color:var(--text,#f7f5fa)}
+.image-placeholder small{font-size:11px;color:var(--text-2,#a7a4b3)}
+.image-plus{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,rgba(0,229,255,.18),rgba(87,60,255,.22),rgba(255,24,200,.16));border:1px solid #45405d;font-size:25px;line-height:1;color:#fff}
+.frame-corner{position:absolute;width:17px;height:17px;border-color:#b6a2ff;border-style:solid;pointer-events:none}
+.frame-tl{top:5px;left:5px;border-width:2px 0 0 2px;border-top-left-radius:5px}
+.frame-tr{top:5px;right:5px;border-width:2px 2px 0 0;border-top-right-radius:5px}
+.frame-bl{bottom:5px;left:5px;border-width:0 0 2px 2px;border-bottom-left-radius:5px}
+.frame-br{bottom:5px;right:5px;border-width:0 2px 2px 0;border-bottom-right-radius:5px}
+.app-topbar-demo{display:flex;align-items:center;gap:12px;min-height:66px;padding:12px;border:1px solid #2c2d38;border-radius:14px;background:linear-gradient(155deg,#1b1b23 0%,#15161c 58%,#111218 100%)}
+.back-button,.topbar-action{display:grid;place-items:center;flex:0 0 38px;width:38px;height:38px;border:1px solid #353541;border-radius:12px;background:linear-gradient(155deg,#292a33 0%,#202129 100%);color:#f7f5fa;font:inherit;font-size:24px;line-height:1}
+.app-topbar-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:3px}
+.app-topbar-copy b{font-size:14px;color:#f8f6fa}
+.app-topbar-copy small{font-size:11px;color:#aaa7b5}
+.topbar-action{font-size:15px;letter-spacing:1px}
+.screen-background-demo{display:flex;align-items:center;gap:18px;padding:16px;margin-bottom:16px;border:1px solid #292a36;border-radius:16px;background:linear-gradient(155deg,#1b1b23 0%,#14151c 64%,#101116 100%)}
+.screen-background-preview{position:relative;isolation:isolate;overflow:hidden;flex:0 0 132px;height:156px;padding:12px;border:1px solid #30303d;border-radius:13px;background:linear-gradient(180deg,#12111b 0%,#0b0c11 70%,#090a0e 100%)}
+.screen-glow-orb{position:absolute;z-index:-1;top:-45px;left:2px;width:130px;height:110px;border-radius:50%;background:radial-gradient(ellipse,rgba(104,50,139,.34) 0%,rgba(87,60,255,.12) 42%,transparent 72%)}
+.screen-preview-top{display:flex;justify-content:space-between;margin-bottom:16px}
+.screen-preview-top span{height:5px;width:34px;border-radius:5px;background:#3b3948}
+.screen-preview-card{height:34px;margin-bottom:8px;border:1px solid #292a35;border-radius:8px;background:linear-gradient(145deg,#1b1b23,#121319)}
+.screen-preview-card.short{width:72%;height:25px}
+.screen-background-demo>div:last-child{min-width:0}
+.screen-background-demo b{font-size:14px}
+.screen-background-demo p{font-size:12px;line-height:1.7;margin:6px 0 0}
+@media(max-width:640px){.screen-background-demo{align-items:flex-start;gap:12px;padding:12px}.screen-background-preview{flex-basis:104px;height:138px}.image-field-frame{min-height:190px}.image-placeholder{min-height:168px}}
