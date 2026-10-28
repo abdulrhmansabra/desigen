@@ -1,0 +1,14 @@
+:root {
+  color-scheme: dark;
+  --bg: #070914;
+  --panel: #0d1224;
+  --panel-raised: #141a31;
+  --text: #f3f2ff;
+  --muted: #a7accb;
+  --pink: #f16bd4;
+  --violet: #8a50fa;
+  --blue: #438bff;
+  --cyan: #28d6ff;
+  --border: rgba(145, 159, 221, .23);
+  --gradient-primary: linear-gradient(105deg, #ed73d4 0%, #a44af2 48%, #4b70fa 100%);
+}
