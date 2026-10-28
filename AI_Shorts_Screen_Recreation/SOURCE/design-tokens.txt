@@ -1,1 +1,17 @@
- + JSON.stringify(palette) + 
+# AI Shorts — Design Tokens
+background: #050711
+background-raised: #0B1020
+surface: #0D1223
+surface-inner: #10162A
+surface-border: #292D48
+text-primary: #F5F3FF
+text-secondary: #A7ACC7
+accent-pink: #F07ED0
+accent-purple: #A45CF3
+accent-blue: #596CEB
+accent-cyan: #53C9FF
+radius-pill: 999px
+radius-card: 26px
+radius-input: 22px
+
+Rules: dark matte surfaces; no glassmorphism; no drop shadows; restrained gradients; RTL Arabic labels; system Arabic fonts.
