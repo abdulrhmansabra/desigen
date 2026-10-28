@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 92" role="img" aria-label="منظر جبلي وقت الشفق">
+  <defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#ec9fbe"/><stop offset=".55" stop-color="#394b79"/><stop offset="1" stop-color="#172036"/></linearGradient></defs>
+  <rect width="140" height="92" fill="url(#s)"/><circle cx="96" cy="27" r="12" fill="#ffcfcd" opacity=".8"/>
+  <path d="M0 61 24 34 40 49 65 23 89 53 109 38 140 60V92H0Z" fill="#283451"/>
+  <path d="M0 75 30 57 55 67 81 47 101 69 121 54 140 66V92H0Z" fill="#141c32"/>
+  <path d="M0 84 42 73 68 80 106 69 140 78V92H0Z" fill="#0c1326"/>
+</svg>

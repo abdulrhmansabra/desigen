@@ -1,0 +1,13 @@
+{
+  "name": "ai-shorts-reference-rebuild",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Reconstructed Arabic AI Shorts UI reference screen",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

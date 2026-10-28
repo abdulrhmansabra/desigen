@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080912">
+  <meta name="description" content="إعادة بناء واجهة شاشة إنشاء فيديو في AI Shorts من صورة مرجعية.">
+  <title>AI Shorts — فيديو الذكاء الاصطناعي</title>
+  <link rel="stylesheet" href="css/design-tokens.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <div class="ambient ambient--top" aria-hidden="true"></div>
+
+    <div class="statusbar" aria-label="شريط حالة توضيحي">
+      <span class="status-time">9:41</span>
+      <div class="system-status" aria-hidden="true">
+        <span class="signal-bars"><i></i><i></i><i></i><i></i></span>
+        <svg class="icon status-wifi"><use href="assets/icons.svg#wifi"></use></svg>
+        <span class="battery"><i></i></span>
+        <span class="battery-percent">100%</span>
+      </div>
+    </div>
+
+    <header class="topbar">
+      <button class="credit-pill" type="button" data-action="credits" aria-label="الرصيد: صفر نقطة">
+        <span class="credit-gem"><svg class="icon"><use href="assets/icons.svg#sparkle"></use></svg></span>
+        <strong>0</strong>
+        <svg class="icon icon--small"><use href="assets/icons.svg#chevron-right"></use></svg>
+      </button>
+
+      <button class="screen-title" type="button" data-action="model-menu">
+        <svg class="icon icon--small title-caret"><use href="assets/icons.svg#chevron-down"></use></svg>
+        <span>فيديو الذكاء الاصطناعي</span>
+      </button>
+
+      <button class="round-icon-button top-back" type="button" data-action="back" aria-label="رجوع">
+        <svg class="icon"><use href="assets/icons.svg#chevron-right"></use></svg>
+      </button>
+    </header>
+
+    <section class="pro-banner" aria-label="ترقية إلى النسخة الاحترافية">
+      <div class="pro-art" aria-hidden="true">
+        <span class="pro-ribbon"></span>
+        <span class="pro-orb"></span>
+      </div>
+      <div class="pro-copy">
+        <h1>جرّب AiShorts Pro الآن</h1>
+        <p>وصول غير محدود إلى جميع الميزات</p>
+      </div>
+      <button class="upgrade-button" type="button" data-action="upgrade">
+        <span>ترقية الآن</span>
+        <svg class="icon icon--small"><use href="assets/icons.svg#chevron-right"></use></svg>
+      </button>
+      <svg class="icon pro-crown" aria-hidden="true"><use href="assets/icons.svg#crown"></use></svg>
+    </section>
+
+    <nav class="mode-tabs" aria-label="نوع إنشاء الفيديو">
+      <button class="mode-tab is-active" type="button" aria-pressed="true" data-mode="all">
+        <svg class="icon"><use href="assets/icons.svg#sparkle"></use></svg>
+        <span>جميع الفيديو</span>
+      </button>
+      <button class="mode-tab" type="button" aria-pressed="false" data-mode="image">
+        <svg class="icon"><use href="assets/icons.svg#image"></use></svg>
+        <span>من صورة إلى فيديو</span>
+      </button>
+      <button class="mode-tab mode-tab--text" type="button" aria-pressed="false" data-mode="text">
+        <svg class="icon"><use href="assets/icons.svg#text"></use></svg>
+        <span>من نص إلى فيديو</span>
+      </button>
+    </nav>
+
+    <button class="model-card" type="button" data-action="model-card">
+      <img class="model-art" src="assets/feature-art.svg" alt="" aria-hidden="true">
+      <span class="model-copy">
+        <span class="model-title-row">
+          <strong>Minimax H3</strong>
+          <span class="latest-badge">الأحدث</span>
+        </span>
+        <span class="model-description">إدخال متعدد الوسائط وصوت أصلي لإنشاء فيديو بدقة 2K.</span>
+      </span>
+      <svg class="icon model-arrow"><use href="assets/icons.svg#chevron-right"></use></svg>
+    </button>
+
+    <section class="references-section" aria-labelledby="references-heading">
+      <div class="section-heading">
+        <span class="info-mark" aria-label="معلومات"><svg class="icon"><use href="assets/icons.svg#info"></use></svg></span>
+        <h2 id="references-heading">الصورة / الفيديو المرجعي <span>(اختياري)</span></h2>
+      </div>
+
+      <div class="upload-grid">
+        <article class="upload-card upload-card--advanced" data-count="3">
+          <span class="upload-tag">متقدم</span>
+          <div class="upload-icon"><svg class="icon"><use href="assets/icons.svg#image"></use></svg></div>
+          <h3>إضافة 3</h3>
+          <div class="thumbnail-row">
+            <img src="assets/reference-one.svg" alt="">
+            <img src="assets/reference-two.svg" alt="">
+            <img src="assets/reference-three.svg" alt="">
+            <button class="add-reference" type="button" data-add-reference aria-label="إضافة مرجع متقدم"><svg class="icon"><use href="assets/icons.svg#plus"></use></svg></button>
+          </div>
+          <p>مناسب للمشاريع المعقدة</p>
+        </article>
+
+        <article class="upload-card upload-card--premium" data-count="2">
+          <span class="upload-tag">مميز</span>
+          <div class="upload-icon"><svg class="icon"><use href="assets/icons.svg#image"></use></svg></div>
+          <h3>إضافة 2</h3>
+          <div class="thumbnail-row">
+            <img src="assets/reference-two.svg" alt="">
+            <img src="assets/reference-three.svg" alt="">
+            <button class="add-reference" type="button" data-add-reference aria-label="إضافة مرجع مميز"><svg class="icon"><use href="assets/icons.svg#plus"></use></svg></button>
+          </div>
+          <p>لنتائج أفضل مع التعديل</p>
+        </article>
+
+        <article class="upload-card upload-card--required is-selected" data-count="1">
+          <span class="upload-tag upload-tag--required">* مطلوب</span>
+          <div class="upload-icon"><svg class="icon"><use href="assets/icons.svg#image-plus"></use></svg></div>
+          <h3>إضافة 1</h3>
+          <div class="thumbnail-row thumbnail-row--wide">
+            <img src="assets/reference-three.svg" alt="">
+            <button class="add-reference" type="button" data-add-reference aria-label="إضافة مرجع مطلوب"><svg class="icon"><use href="assets/icons.svg#plus"></use></svg></button>
+          </div>
+          <p>ابدأ بصورة واحدة أو فيديو مختصر</p>
+        </article>
+      </div>
+
+      <p class="reference-note">
+        <svg class="icon"><use href="assets/icons.svg#sparkle"></use></svg>
+        <span>يدعم ما يصل إلى 3 فيديوهات مرجعية. يحد أقصى لإجمالي المدة 30 ثانية.</span>
+        <span class="note-info">i</span>
+      </p>
+    </section>
+
+    <section class="prompt-panel" aria-labelledby="prompt-heading">
+      <div class="prompt-heading-row">
+        <h2 id="prompt-heading">المطالبة <svg class="icon"><use href="assets/icons.svg#sparkle"></use></svg></h2>
+        <span class="prompt-hint">صف المشهد الذي تريد إنشاءه</span>
+      </div>
+
+      <div class="prompt-editor">
+        <label class="sr-only" for="prompt">وصف الفيديو</label>
+        <textarea id="prompt" maxlength="5000" placeholder="قم بتحميل صورة/فيديو مرجعي، وأدخل نصًا، ووصف الفيديو الذي تريد إنشاءه..." dir="rtl"></textarea>
+        <div class="prompt-tools">
+          <button class="auto-button" type="button" data-action="auto-prompt">
+            <svg class="icon"><use href="assets/icons.svg#auto"></use></svg>
+            <span>توليد تلقائي</span>
+          </button>
+          <div class="character-counter"><span id="char-count">0</span>/5000 <svg class="icon"><use href="assets/icons.svg#edit"></use></svg></div>
+        </div>
+      </div>
+
+      <div class="settings-row">
+        <button class="setting-button" type="button" data-action="ratio">
+          <svg class="icon setting-icon"><use href="assets/icons.svg#ratio"></use></svg>
+          <span><small>نسبة العرض</small><strong id="ratio-value">9:16</strong></span>
+          <svg class="icon setting-arrow"><use href="assets/icons.svg#chevron-right"></use></svg>
+        </button>
+        <button class="setting-button" type="button" data-action="style">
+          <svg class="icon setting-icon"><use href="assets/icons.svg#wand"></use></svg>
+          <span><small>الأسلوب</small><strong id="style-value">واقعي</strong></span>
+          <svg class="icon setting-arrow"><use href="assets/icons.svg#chevron-right"></use></svg>
+        </button>
+        <button class="setting-button" type="button" data-action="advanced">
+          <svg class="icon setting-icon"><use href="assets/icons.svg#settings"></use></svg>
+          <span><small>الإعدادات المتقدمة</small><strong>&nbsp;</strong></span>
+          <svg class="icon setting-arrow"><use href="assets/icons.svg#chevron-right"></use></svg>
+        </button>
+      </div>
+
+      <button class="create-button" type="button" data-action="create">
+        <svg class="icon"><use href="assets/icons.svg#sparkle"></use></svg>
+        <span>إنشاء</span>
+        <svg class="icon icon--small"><use href="assets/icons.svg#chevron-right"></use></svg>
+      </button>
+    </section>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+    <nav class="system-navigation" aria-label="تنقل النظام التوضيحي">
+      <span class="nav-recents" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="nav-home" aria-hidden="true"></span>
+      <span class="nav-back" aria-hidden="true"><svg class="icon"><use href="assets/icons.svg#chevron-right"></use></svg></span>
+    </nav>
+  </main>
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

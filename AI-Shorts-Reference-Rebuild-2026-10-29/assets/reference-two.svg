@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 92" role="img" aria-label="وادٍ بنفسجي عند الغروب">
+  <defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#bd7bc5"/><stop offset=".52" stop-color="#505184"/><stop offset="1" stop-color="#131b31"/></linearGradient></defs>
+  <rect width="140" height="92" fill="url(#s)"/><circle cx="55" cy="30" r="15" fill="#ffd1d9" opacity=".74"/>
+  <path d="M0 58 27 39 48 46 70 33 99 49 119 35 140 49V92H0Z" fill="#353454"/>
+  <path d="M0 92 26 55 54 72 78 53 103 75 121 61 140 73V92Z" fill="#20243e"/>
+  <path d="M35 92 62 63 83 79 98 71 118 92Z" fill="#0e172a"/>
+</svg>

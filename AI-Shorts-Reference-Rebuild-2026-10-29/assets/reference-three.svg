@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 92" role="img" aria-label="مشهد طبيعي أزرق">
+  <defs><linearGradient id="s" x2="0" y2="1"><stop stop-color="#669ecb"/><stop offset=".5" stop-color="#405e85"/><stop offset="1" stop-color="#101c32"/></linearGradient></defs>
+  <rect width="140" height="92" fill="url(#s)"/><path d="M0 64 24 28 42 49 67 17 91 51 115 31 140 55V92H0Z" fill="#324965"/>
+  <path d="M0 76 28 54 48 62 77 42 101 66 123 53 140 65V92H0Z" fill="#202f48"/>
+  <path d="M0 92 40 67 64 79 95 62 118 79 140 72V92Z" fill="#10182a"/>
+  <path d="M19 92 32 74 45 92M81 92 94 73 110 92" stroke="#7eb7d0" stroke-opacity=".5" stroke-width="1.3" fill="none"/>
+</svg>

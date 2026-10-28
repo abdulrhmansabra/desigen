@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 180" role="img" aria-labelledby="title desc">
+  <title id="title">رسم توضيحي سينمائي جديد</title><desc id="desc">مشهد غروب بنفسجي ووردي مع شخصية جانبية مرسومة بأسلوب مبسط.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f29acb"/><stop offset=".38" stop-color="#6c5385"/><stop offset=".72" stop-color="#1d2948"/><stop offset="1" stop-color="#101529"/></linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edb1b4"/><stop offset="1" stop-color="#8e617c"/></linearGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#27213a"/><stop offset=".5" stop-color="#101222"/><stop offset="1" stop-color="#3d274d"/></linearGradient>
+    <linearGradient id="coat" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#26233e"/><stop offset="1" stop-color="#0c1123"/></linearGradient>
+    <radialGradient id="sun"><stop stop-color="#ffd6d0" stop-opacity=".9"/><stop offset="1" stop-color="#f28fc2" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="330" height="180" fill="url(#sky)"/>
+  <circle cx="129" cy="75" r="80" fill="url(#sun)"/>
+  <circle cx="126" cy="82" r="26" fill="#ffbdcf" opacity=".75"/>
+  <path d="M0 122Q42 97 82 116T162 114T243 109T330 93V180H0Z" fill="#302941" opacity=".68"/>
+  <path d="M0 147 43 115 73 137 112 110 154 145 207 119 248 141 289 112 330 128V180H0Z" fill="#1a2038"/>
+  <path d="M0 160 56 145 103 156 163 139 218 157 272 140 330 151V180H0Z" fill="#10162a"/>
+  <path d="M19 180Q24 144 55 131Q82 117 108 131Q126 142 135 180Z" fill="url(#coat)"/>
+  <path d="M37 89Q22 45 48 16Q69-2 96 21Q118 41 101 81L88 108 48 111Z" fill="url(#hair)"/>
+  <path d="M62 43Q79 27 96 47Q108 60 103 81L94 94 95 111 71 119 59 99 48 88Q40 72 47 57Z" fill="url(#skin)"/>
+  <path d="M45 67Q39 39 64 28Q84 18 100 39Q109 54 102 72L91 63Q84 53 72 52Q57 53 50 74Z" fill="#171527"/>
+  <path d="M43 68Q32 36 53 14Q72-6 94 14Q119 28 111 61L105 83 100 56Q89 45 77 39Q62 36 54 56L49 84Z" fill="url(#hair)"/>
+  <path d="M96 72q5 4 9 0M93 84q5 3 9 0" stroke="#4c3449" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+  <path d="M68 98Q83 103 94 94L100 111 89 124 73 117Z" fill="#b9819c"/>
+  <path d="M48 111Q65 128 91 120L117 139 134 180H22Q27 140 48 111Z" fill="url(#coat)"/>
+  <path d="M84 119 101 132 117 180H91L72 138Z" fill="#3a3153" opacity=".7"/>
+  <path d="M1 11Q25 5 33 19M13 26Q27 22 35 31" stroke="#f7bad6" stroke-opacity=".55" stroke-width="2" fill="none"/>
+  <rect x=".5" y=".5" width="329" height="179" fill="none" stroke="#f1c0e2" stroke-opacity=".15"/>
+</svg>
