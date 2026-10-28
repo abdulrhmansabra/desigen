@@ -24,6 +24,8 @@ The layout, spacing, palette, visible Arabic copy, UI controls and approximate a
 
 ## Run
 
+Prerequisite: Node.js 20.19+ or 22.12+ for the current Vite toolchain.
+
 Recommended:
 1. Open a terminal in this directory.
 2. Run `npm install`.
