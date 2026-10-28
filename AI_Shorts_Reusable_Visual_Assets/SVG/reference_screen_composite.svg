@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1500" viewBox="0 0 720 1500">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#090A18"/><stop offset=".55" stop-color="#05070D"/><stop offset="1" stop-color="#070B19"/></linearGradient>
+ <radialGradient id="toplight" cx="70%" cy="0%" r="65%"><stop stop-color="#B34F9A" stop-opacity=".55"/><stop offset=".38" stop-color="#35224F" stop-opacity=".24"/><stop offset="1" stop-color="#05070D" stop-opacity="0"/></radialGradient>
+ <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F08AD9"/><stop offset=".5" stop-color="#39365C"/><stop offset="1" stop-color="#5D8CFF"/></linearGradient>
+ <linearGradient id="pro" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#311A42"/><stop offset=".5" stop-color="#11182E"/><stop offset="1" stop-color="#291A3D"/></linearGradient>
+ <linearGradient id="cta" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#F08AD9"/><stop offset=".48" stop-color="#A65CF2"/><stop offset="1" stop-color="#5967E8"/></linearGradient>
+ <linearGradient id="thumb" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F08AD9"/><stop offset=".3" stop-color="#6354A9"/><stop offset=".65" stop-color="#1C2B4A"/><stop offset="1" stop-color="#0A101D"/></linearGradient>
+ <linearGradient id="card" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#151629"/><stop offset="1" stop-color="#090E1B"/></linearGradient>
+ <clipPath id="modelclip"><rect x="31" y="422" width="654" height="148" rx="28"/></clipPath>
+</defs>
+<rect width="720" height="1500" fill="url(#bg)"/><rect width="720" height="1500" fill="url(#toplight)"/>
+<!-- status -->
+<g fill="#F7F5FC" font-family="Arial,sans-serif"><text x="35" y="36" font-size="22">9:41</text><text x="661" y="34" font-size="10">100%</text></g>
+<g fill="none" stroke="#F7F5FC" stroke-width="3" stroke-linecap="round"><path d="M563 32v-7m8 7V20m8 12V15m8 17V10"/><path d="M597 20q10-11 21 0M600 25q7-7 14 0M606 30q2-2 4 0"/><rect x="633" y="13" width="27" height="17" rx="3"/><path d="M661 18v7"/></g>
+<!-- top row -->
+<rect x="31" y="76" width="126" height="58" rx="29" fill="#101426" stroke="url(#edge)" stroke-width="2"/><rect x="33" y="78" width="122" height="54" rx="27" fill="url(#cta)" opacity=".38"/>
+<path d="M60 91 65 103 77 108 65 113 60 125 55 113 43 108 55 103Z" fill="#F7F5FC"/><text x="91" y="112" fill="#F7F5FC" font-size="22" font-family="Arial,sans-serif">0</text><path d="m130 96 9 9-9 9" fill="none" stroke="#F7F5FC" stroke-width="3"/>
+<path d="m275 100 9 9 9-9" fill="none" stroke="#F7F5FC" stroke-width="3" stroke-linecap="round"/><text x="520" y="109" fill="#F7F5FC" font-size="24" font-weight="700" text-anchor="end" font-family="Arial,sans-serif">فيديو الذكاء الاصطناعي</text>
+<rect x="629" y="77" width="56" height="56" rx="22" fill="#111426" stroke="#1E2237"/><path d="m652 94 12 12-12 12" fill="none" stroke="#F7F5FC" stroke-width="3" stroke-linecap="round"/>
+<!-- pro banner -->
+<rect x="31" y="169" width="654" height="120" rx="25" fill="url(#pro)" stroke="url(#edge)" stroke-width="1.5"/>
+<path d="M34 242 Q73 172 116 204 T172 252 L151 284H35Z" fill="#8B5CF6" opacity=".15"/>
+<path d="M34 190 Q75 163 114 197 L150 229 112 276 35 276Z" fill="url(#thumb)" opacity=".7"/>
+<text x="389" y="210" fill="#F7F5FC" font-size="24" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">جرّب AI Shorts Pro الآن</text>
+<text x="385" y="246" fill="#A8ADC7" font-size="18" text-anchor="middle" font-family="Arial,sans-serif">وصول غير محدود إلى جميع الميزات</text>
+<rect x="489" y="220" width="151" height="49" rx="25" fill="url(#cta)"/><text x="564" y="250" fill="#FFF" font-size="18" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">ترقية الآن ›</text>
+<path d="M655 189 661 201 674 203 665 212 667 225 655 219 643 225 645 212 636 203 649 201Z" fill="#F08AD9"/>
+<!-- mode tabs -->
+<rect x="31" y="326" width="654" height="66" rx="33" fill="#0B1020" stroke="#20243A"/>
+<rect x="32" y="327" width="218" height="64" rx="32" fill="url(#cta)" opacity=".3" stroke="url(#edge)" stroke-width="1.5"/>
+<path d="M75 348 81 359 93 363 81 367 75 379 69 367 57 363 69 359Z" fill="#F7F5FC"/>
+<text x="170" y="367" fill="#F7F5FC" font-size="17" text-anchor="middle" font-family="Arial,sans-serif">جميع الفيديو</text>
+<g fill="none" stroke="#A8ADC7" stroke-width="2.5"><rect x="296" y="347" width="23" height="23" rx="3"/><circle cx="303" cy="354" r="2"/><path d="m298 366 7-7 5 5 4-4 4 5"/></g><text x="390" y="367" fill="#A8ADC7" font-size="16" text-anchor="middle" font-family="Arial,sans-serif">من صورة إلى فيديو</text>
+<g fill="none" stroke="#A8ADC7" stroke-width="2.5"><rect x="526" y="347" width="23" height="26" rx="3"/><path d="M531 354h13m-13 5h10m-10 5h7"/></g><text x="610" y="367" fill="#A8ADC7" font-size="16" text-anchor="middle" font-family="Arial,sans-serif">من نص إلى فيديو</text>
+<!-- model card -->
+<rect x="31" y="422" width="654" height="148" rx="28" fill="url(#card)" stroke="url(#edge)" stroke-width="1.5"/>
+<g clip-path="url(#modelclip)">
+ <rect x="31" y="422" width="220" height="148" fill="url(#thumb)"/>
+ <circle cx="142" cy="468" r="42" fill="#0D1021" opacity=".55"/>
+ <path d="M78 572 Q85 510 133 502 Q182 505 202 572Z" fill="#111427"/>
+ <path d="M104 481 Q88 446 120 433 Q156 416 177 451 L169 490 144 511 117 493Z" fill="#171326"/>
+ <path d="M117 467 Q130 451 151 462 L164 482 147 500 126 490Z" fill="#B66E8C" opacity=".65"/>
+ <path d="M32 548 Q90 510 143 548 T251 538V571H31Z" fill="#10172A" opacity=".7"/>
+</g>
+<rect x="583" y="439" width="82" height="27" rx="13" fill="#8B5CF6" opacity=".5"/><text x="624" y="458" fill="#F7F5FC" font-size="13" text-anchor="middle" font-family="Arial,sans-serif">الأحدث</text>
+<text x="652" y="482" fill="#F7F5FC" font-size="20" font-weight="700" text-anchor="end" font-family="Arial,sans-serif">Minimax H3</text>
+<text x="652" y="516" fill="#A8ADC7" font-size="15" text-anchor="end" font-family="Arial,sans-serif">إدخال متعدد الوسائط وصوت أصلي لإنشاء فيديو بدقة 2K</text><path d="m652 536 7 7-7 7" fill="none" stroke="#F7F5FC" stroke-width="2.5"/>
+<!-- reference heading -->
+<circle cx="44" cy="628" r="13" fill="#A8ADC7"/><text x="44" y="634" fill="#0A0D18" font-size="17" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">i</text>
+<text x="680" y="636" fill="#F7F5FC" font-size="22" text-anchor="end" font-family="Arial,sans-serif">الصورة / الفيديو المرجعي (اختياري)</text>
+<!-- three reference cards -->
+<g>
+ <rect x="31" y="662" width="210" height="207" rx="28" fill="url(#card)" stroke="#30334B" stroke-width="1.5"/>
+ <circle cx="80" cy="710" r="27" fill="#20243A"/><g fill="none" stroke="#B8BCE0" stroke-width="2.5"><rect x="67" y="699" width="27" height="22" rx="3"/><circle cx="74" cy="706" r="2"/><path d="m68 716 7-7 6 6 4-4 6 5"/></g>
+ <rect x="172" y="674" width="54" height="24" rx="12" fill="#8B5CF6" opacity=".55"/><text x="199" y="691" fill="#F7F5FC" font-size="11" text-anchor="middle" font-family="Arial,sans-serif">متقدم</text>
+ <text x="53" y="754" fill="#F7F5FC" font-size="21" font-weight="700" font-family="Arial,sans-serif">إضافة 3</text>
+ <rect x="53" y="770" width="50" height="44" rx="8" fill="url(#thumb)"/><rect x="106" y="770" width="50" height="44" rx="8" fill="url(#thumb)" opacity=".8"/><rect x="159" y="770" width="50" height="44" rx="8" fill="url(#thumb)" opacity=".6"/>
+ <circle cx="208" cy="816" r="22" fill="#151A2C" stroke="#303651"/><path d="M208 806v20m-10-10h20" stroke="#B8BCE0" stroke-width="2.5" stroke-linecap="round"/>
+ <text x="136" y="846" fill="#A8ADC7" font-size="13" text-anchor="middle" font-family="Arial,sans-serif">للمشاريع المعقدة</text>
+ <rect x="255" y="662" width="210" height="207" rx="28" fill="url(#card)" stroke="#30334B" stroke-width="1.5"/>
+ <circle cx="304" cy="710" r="27" fill="#20243A"/><g fill="none" stroke="#B8BCE0" stroke-width="2.5"><rect x="291" y="699" width="27" height="22" rx="3"/><circle cx="298" cy="706" r="2"/><path d="m292 716 7-7 6 6 4-4 6 5"/></g>
+ <rect x="396" y="674" width="54" height="24" rx="12" fill="#8B5CF6" opacity=".55"/><text x="423" y="691" fill="#F7F5FC" font-size="11" text-anchor="middle" font-family="Arial,sans-serif">مميز</text>
+ <text x="277" y="754" fill="#F7F5FC" font-size="21" font-weight="700" font-family="Arial,sans-serif">إضافة 2</text>
+ <rect x="277" y="770" width="50" height="44" rx="8" fill="url(#thumb)"/><rect x="330" y="770" width="50" height="44" rx="8" fill="url(#thumb)" opacity=".8"/>
+ <circle cx="432" cy="816" r="22" fill="#151A2C" stroke="#303651"/><path d="M432 806v20m-10-10h20" stroke="#B8BCE0" stroke-width="2.5" stroke-linecap="round"/>
+ <text x="360" y="846" fill="#A8ADC7" font-size="13" text-anchor="middle" font-family="Arial,sans-serif">نتائج أفضل مع التعديل</text>
+ <rect x="479" y="662" width="206" height="207" rx="28" fill="#0D1930" stroke="#4A9EFF" stroke-width="2"/>
+ <rect x="481" y="664" width="202" height="203" rx="26" fill="url(#thumb)" opacity=".12"/>
+ <circle cx="528" cy="710" r="27" fill="#1D3554"/><g fill="none" stroke="#7DD3FC" stroke-width="2.5"><rect x="515" y="701" width="24" height="21" rx="3"/><path d="m517 717 7-6 5 4 5-6"/></g><path d="M546 693v17m-8-8h17" stroke="#7DD3FC" stroke-width="2.5"/>
+ <rect x="603" y="674" width="72" height="24" rx="12" fill="#5D8CFF"/><text x="639" y="691" fill="#07101F" font-size="11" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">* مطلوب</text>
+ <text x="501" y="754" fill="#F7F5FC" font-size="21" font-weight="700" font-family="Arial,sans-serif">إضافة 1</text>
+ <rect x="501" y="770" width="140" height="44" rx="8" fill="url(#thumb)"/><circle cx="652" cy="816" r="22" fill="#151A2C" stroke="#303651"/><path d="M652 806v20m-10-10h20" stroke="#B8BCE0" stroke-width="2.5" stroke-linecap="round"/>
+ <text x="582" y="846" fill="#A8ADC7" font-size="12" text-anchor="middle" font-family="Arial,sans-serif">ابدأ بصورة واحدة</text>
+</g>
+<!-- info strip -->
+<rect x="31" y="883" width="654" height="48" rx="24" fill="#0D1322" stroke="#282D45"/><circle cx="51" cy="907" r="10" fill="#1D2943"/><text x="51" y="912" fill="#7DD3FC" font-size="14" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">i</text><text x="667" y="912" fill="#A8ADC7" font-size="14" text-anchor="end" font-family="Arial,sans-serif">يدعم ما يصل إلى 3 فيديوهات مرجعية بمدة إجمالية أقصى 30 ثانية.</text>
+<!-- prompt panel -->
+<rect x="31" y="958" width="654" height="461" rx="30" fill="url(#card)" stroke="#30334B" stroke-width="1.5"/>
+<path d="M645 983 652 998 667 1004 652 1010 645 1025 639 1010 624 1004 639 998Z" fill="#B58CFF"/><text x="616" y="1009" fill="#F7F5FC" font-size="25" font-weight="700" text-anchor="end" font-family="Arial,sans-serif">المطالبة</text>
+<rect x="53" y="1028" width="610" height="184" rx="24" fill="#0A0D18" stroke="#292D45" stroke-width="1.5"/>
+<text x="635" y="1073" fill="#A8ADC7" font-size="18" text-anchor="end" font-family="Arial,sans-serif">قم بتحميل صورة/فيديو مرجعي، وأدخل نصًا، وأوصف الفيديو</text><text x="635" y="1102" fill="#A8ADC7" font-size="18" text-anchor="end" font-family="Arial,sans-serif">الذي تريد إنشاءه...</text>
+<rect x="64" y="1160" width="137" height="39" rx="20" fill="#1B1D36"/><circle cx="87" cy="1179" r="9" fill="none" stroke="#B8BCE0" stroke-width="2"/><path d="M87 1166v4m0 18v4m-13-13h4m18 0h4" stroke="#B8BCE0" stroke-width="2"/><text x="143" y="1185" fill="#B8BCE0" font-size="14" text-anchor="middle" font-family="Arial,sans-serif">توليد تلقائي</text><text x="609" y="1185" fill="#A8ADC7" font-size="15" text-anchor="end" font-family="Arial,sans-serif">0/5000  ✎</text>
+<!-- options -->
+<g>
+ <rect x="53" y="1234" width="190" height="72" rx="22" fill="url(#card)" stroke="#292D45"/><rect x="265" y="1234" width="190" height="72" rx="22" fill="url(#card)" stroke="#292D45"/><rect x="477" y="1234" width="186" height="72" rx="22" fill="url(#card)" stroke="#292D45"/>
+ <g fill="none" stroke="#B8BCE0" stroke-width="2.5" stroke-linejoin="round"><rect x="78" y="1252" width="20" height="34" rx="3"/><path d="M85 1280h6"/><path d="m306 1252 6 9 10 2-7 7 2 10-11-5-10 5 2-10-7-7 10-2Z"/><circle cx="514" cy="1270" r="12"/><circle cx="514" cy="1270" r="4"/></g>
+ <text x="218" y="1264" fill="#A8ADC7" font-size="14" text-anchor="end" font-family="Arial,sans-serif">نسبة العرض</text><text x="218" y="1288" fill="#F7F5FC" font-size="17" text-anchor="end" font-family="Arial,sans-serif">9:16  ›</text>
+ <text x="430" y="1264" fill="#A8ADC7" font-size="14" text-anchor="end" font-family="Arial,sans-serif">الأسلوب</text><text x="430" y="1288" fill="#F7F5FC" font-size="17" text-anchor="end" font-family="Arial,sans-serif">واقعي  ›</text>
+ <text x="646" y="1264" fill="#A8ADC7" font-size="13" text-anchor="end" font-family="Arial,sans-serif">الإعدادات المتقدمة</text><text x="646" y="1288" fill="#F7F5FC" font-size="15" text-anchor="end" font-family="Arial,sans-serif">›</text>
+</g>
+<rect x="53" y="1327" width="610" height="72" rx="36" fill="url(#cta)"/><path d="M355 1346 362 1361 377 1368 362 1374 355 1390 348 1374 333 1368 348 1361Z" fill="#FFF7FF"/><text x="408" y="1378" fill="#FFF" font-size="23" font-weight="700" text-anchor="middle" font-family="Arial,sans-serif">إنشاء</text><path d="m465 1357 11 11-11 11" fill="none" stroke="#FFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Android nav -->
+<path d="M0 1436H720" stroke="#292D45" stroke-width="2"/><g fill="none" stroke="#A8ADC7" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M143 1462v25m9-25v25m9-25v25"/><rect x="344" y="1457" width="27" height="33" rx="9"/><path d="m558 1458 16 17-16 17"/></g>
+</svg>
