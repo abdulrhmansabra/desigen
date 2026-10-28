@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090e">
+  <title>AI Shorts — إنشاء فيديو</title>
+  <link rel="stylesheet" href="design-tokens.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app-shell">
+    <header class="topbar">
+      <button class="credit-pill" aria-label="الرصيد"><span class="sparkle">✦</span><strong>0</strong></button>
+      <button class="page-title" id="modelMenu" aria-label="اختيار نوع الفيديو"><span class="chevron">⌄</span><span>فيديو الذكاء الاصطناعي</span></button>
+      <button class="icon-button back" aria-label="رجوع">›</button>
+    </header>
+
+    <button class="pro-banner">
+      <span class="pro-copy"><strong>AiShorts Pro</strong><small>افتح جميع القوالب والميزات</small></span>
+      <span class="pro-action">اكتشف المزايا <b>‹</b></span>
+    </button>
+
+    <nav class="mode-tabs" aria-label="طرق إنشاء الفيديو">
+      <button class="mode-tab active" data-mode="all"><span class="tab-icon">✦</span>مرجع الفيديو</button>
+      <button class="mode-tab" data-mode="image">▧ <span>من صورة إلى فيديو</span></button>
+      <button class="mode-tab" data-mode="text">▤ <span>من نص إلى فيديو</span></button>
+    </nav>
+
+    <button class="model-card" id="modelCard">
+      <span class="model-art" aria-hidden="true"><span>✧</span></span>
+      <span class="model-details"><strong>Minimax H3 <em>الأحدث</em></strong><small>إدخال متعدد الوسائط وصوت أصلي لإنشاء فيديو بدقة 2K.</small></span>
+      <span class="arrow">‹</span>
+    </button>
+
+    <section class="section">
+      <div class="section-heading"><h2>الصورة / الفيديو المرجعي <span>(اختياري)</span></h2><span class="info" title="أضف مرجعًا لتحسين النتيجة">i</span></div>
+      <div class="reference-grid">
+        <button class="reference-slot required" data-slot="1"><span class="slot-badge">* مطلوب</span><span class="slot-icon">＋</span><strong>إضافة 1</strong><small>صورة أو فيديو</small></button>
+        <button class="reference-slot" data-slot="2"><span class="slot-badge">اختياري</span><span class="slot-icon">＋</span><strong>إضافة 2</strong><small>مرجع إضافي</small></button>
+        <button class="reference-slot" data-slot="3"><span class="slot-badge">اختياري</span><span class="slot-icon">＋</span><strong>إضافة 3</strong><small>مرجع إضافي</small></button>
+      </div>
+      <p class="helper">يمكنك إضافة ما يصل إلى 3 فيديوهات مرجعية، بحد أقصى إجمالي المدة 30 ثانية.</p>
+    </section>
+
+    <section class="prompt-panel">
+      <div class="section-heading"><h2>المطالبة <span class="tiny-spark">✦</span></h2><button class="history" id="historyButton">◷ <span>السجل</span></button></div>
+      <label class="sr-only" for="prompt">صف الفيديو الذي تريد إنشاءه</label>
+      <textarea id="prompt" maxlength="5000" placeholder="صف المشهد والحركة والإضاءة وزاوية الكاميرا التي تريدها..."></textarea>
+      <div class="prompt-footer"><button class="assist" id="assistButton">✧ تحسين الوصف</button><span id="counter">0 / 5000</span></div>
+    </section>
+
+    <section class="settings-row" aria-label="إعدادات الفيديو">
+      <button class="setting-card"><span class="setting-icon">▯</span><span><small>نسبة العرض</small><strong>9:16 عمودي</strong></span><b>‹</b></button>
+      <button class="setting-card"><span class="setting-icon">✧</span><span><small>الأسلوب</small><strong>واقعي سينمائي</strong></span><b>‹</b></button>
+      <button class="setting-card"><span class="setting-icon">⚙</span><span><small>التحكم</small><strong>الإعدادات المتقدمة</strong></span><b>‹</b></button>
+    </section>
+
+    <button class="create-button" id="createButton"><span>✦</span> إنشاء الفيديو <b>‹</b></button>
+    <p class="notice" id="notice" role="status">معاينة تصميمية — لا يتم رفع ملفات أو إنشاء فيديو فعليًا.</p>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
