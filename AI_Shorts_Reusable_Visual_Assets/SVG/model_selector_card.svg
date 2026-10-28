@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17172A"/><stop offset="1" stop-color="#0A1020"/></linearGradient><linearGradient id="art" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F08AD9"/><stop offset=".35" stop-color="#5D8CFF"/><stop offset=".7" stop-color="#18213D"/><stop offset="1" stop-color="#F6B8E7"/></linearGradient><linearGradient id="edge"><stop stop-color="#F08AD9"/><stop offset=".45" stop-color="#343B61"/><stop offset="1" stop-color="#5D8CFF"/></linearGradient></defs>
+<rect x="1" y="1" width="998" height="228" rx="42" fill="url(#bg)" stroke="url(#edge)" stroke-width="2"/>
+<rect x="2" y="2" width="330" height="226" rx="40" fill="url(#art)" opacity=".9"/>
+<path d="M0 178 Q100 120 182 176 T334 150 V230 H0Z" fill="#11182D" opacity=".68"/>
+<circle cx="190" cy="85" r="48" fill="#0A0D18" opacity=".16"/>
+<path d="M145 157 Q151 109 190 108 Q232 111 245 165 L245 185H139Z" fill="#111526" opacity=".9"/>
+<path d="M155 90 Q145 48 181 40 Q220 37 224 77 L217 112 190 127 166 110Z" fill="#161426"/>
+<rect x="800" y="28" width="150" height="38" rx="19" fill="#8B5CF6" opacity=".55"/>
+<text x="875" y="53" font-family="Arial,sans-serif" font-size="20" fill="#F7F5FC" text-anchor="middle">NEW</text>
+<path d="m956 100 12 15-12 15" fill="none" stroke="#F7F5FC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
