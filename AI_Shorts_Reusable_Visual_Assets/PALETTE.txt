@@ -1,0 +1,14 @@
+AI Shorts — Approved Palette
+Background: #05070D
+Background secondary: #0A0D18
+Surface: #101321
+Surface elevated: #15182A
+Purple: #8B5CF6
+Purple light: #B58CFF
+Pink: #F08AD9
+Pink light: #F6B8E7
+Blue: #5D8CFF
+Cyan accent: #7DD3FC
+Primary text: #F7F5FC
+Secondary text: #A8ADC7
+Border: #292D45
