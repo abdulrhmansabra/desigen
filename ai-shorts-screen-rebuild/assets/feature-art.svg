@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 280" role="img" aria-label="Abstract violet cinematic landscape">
+<defs>
+ <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ef7ebf"/><stop offset=".38" stop-color="#354b80"/><stop offset="1" stop-color="#08132d"/></linearGradient>
+ <linearGradient id="ridge" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#596b9c"/><stop offset="1" stop-color="#101a37"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#ffd4c9"/><stop offset="1" stop-color="#e68bb8" stop-opacity="0"/></radialGradient>
+ </defs>
+ <rect width="520" height="280" fill="url(#sky)"/>
+ <circle cx="126" cy="128" r="112" fill="url(#sun)"/>
+ <path d="M0 195 Q60 150 116 180 T250 170 T390 165 T520 190 V280 H0Z" fill="#202d53" opacity=".75"/>
+ <path d="M0 230 L85 157 140 205 225 130 302 202 382 147 520 224 V280 H0Z" fill="url(#ridge)"/>
+ <path d="M0 251 L116 205 192 236 300 194 388 238 472 207 520 231 V280 H0Z" fill="#0a1228"/>
+ <path d="M38 280 Q67 213 92 194 Q115 175 139 190 Q164 204 179 280Z" fill="#080d20"/>
+ <path d="M72 220 Q98 181 127 189 Q150 195 164 229 Q133 215 117 226 Q94 238 72 220Z" fill="#16172d"/>
+ <path d="M0 0 H520 V22 Q380 45 270 22 T0 30Z" fill="#f5a7df" opacity=".08"/>
+ <g fill="#f7d5f0" opacity=".75"><circle cx="200" cy="65" r="1.4"/><circle cx="255" cy="92" r="1"/><circle cx="334" cy="54" r="1.2"/><circle cx="400" cy="103" r="1"/></g>
+</svg>
