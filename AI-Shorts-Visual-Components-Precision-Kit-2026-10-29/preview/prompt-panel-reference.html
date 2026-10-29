@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI Shorts — Prompt Panel Reference</title>
+<style>
+:root{--bg:#060813;--surface:#0d1225;--text:#f2f1ff;--muted:#a6a8c8;--rose:#f16ccb;--violet:#a65bfa;--blue:#4e7dff;--cyan:#39c8ff;--stroke:#252d49}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 55% -10%,#51234e55,transparent 34%),linear-gradient(180deg,#080a17,var(--bg) 55%);color:var(--text);font-family:Arial,"Noto Sans Arabic",sans-serif;padding:28px}
+main{max-width:940px;margin:auto;border:1px solid #252d49;border-radius:28px;padding:28px;background:linear-gradient(145deg,#0e1327,#080d1c 65%,#0c1123);display:grid;gap:22px}
+.heading{display:flex;align-items:center;justify-content:flex-start;gap:10px;font-size:25px;font-weight:700}.spark{font-size:30px;background:linear-gradient(140deg,#e78bff,#7a7cff);color:transparent;background-clip:text}
+.editor{height:255px;border:1px solid #252d49;border-radius:26px;background:linear-gradient(140deg,#101528,#0b1020,#0d1326);padding:22px 20px;display:flex;flex-direction:column;justify-content:space-between}
+.placeholder{font-size:23px;line-height:1.65;color:#9298ba;max-width:90%;align-self:flex-start;text-align:right}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#a6a8c8;font-size:18px}.auto{border-radius:99px;padding:12px 18px;background:linear-gradient(90deg,#22243f,#252743);display:flex;align-items:center;gap:12px;white-space:nowrap}.meta{display:flex;gap:12px;align-items:center}
+.settings{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.chip{min-height:90px;border-radius:21px;border:1px solid #252d49;background:linear-gradient(140deg,#1a1d35,#11162b,#151a31);display:flex;align-items:center;justify-content:space-around;gap:8px;padding:12px}.ico{font-size:26px;color:#c9cafa}.label{text-align:center;color:#a6a8c8;font-size:15px;line-height:1.4}.value{color:#f2f1ff;font-size:17px;margin-top:3px}.create{height:90px;border-radius:99px;border:1px solid #b889e8aa;background:linear-gradient(100deg,#f16ccb 0%,#b05ae8 45%,#4e6eff 100%);display:flex;align-items:center;justify-content:center;gap:18px;font-size:27px;font-weight:700;color:white}
+.note{color:#777d9f;font-size:13px;line-height:1.8}
+@media(max-width:620px){body{padding:10px}main{padding:14px;gap:15px}.heading{font-size:20px}.editor{height:220px;padding:15px}.placeholder{font-size:17px}.settings{gap:5px}.chip{padding:6px 3px;gap:3px;min-height:80px}.ico{font-size:18px}.label{font-size:11px}.value{font-size:13px}.create{height:68px;font-size:22px}.auto{font-size:12px;padding:10px}.controls{font-size:13px}}
+</style></head>
+<body><main>
+<div class="heading"><span>المطالبة</span><span class="spark">✦</span></div>
+<section class="editor">
+<div class="placeholder">قم بتحميل صورة/فيديو مرجعي، وأدخل نصًا، واصف الفيديو الذي تريد إنشاءه...</div>
+<div class="controls"><div class="auto"><span>◉</span><span>توليد تلقائي</span></div><div class="meta"><span>0/5000</span><span>▱</span></div></div>
+</section>
+<section class="settings">
+<div class="chip"><span class="ico">▯</span><div><div class="label">نسبة العرض</div><div class="value">9:16</div></div><span class="ico">›</span></div>
+<div class="chip"><span class="ico">⚒</span><div><div class="label">الأسلوب</div><div class="value">واقعي</div></div><span class="ico">›</span></div>
+<div class="chip"><span class="ico">⚙</span><div class="label">الإعدادات المتقدمة</div><span class="ico">›</span></div>
+</section>
+<div class="create"><span>✦</span><span>إنشاء</span><span>›</span></div>
+<p class="note">Visual reconstruction preview only. Replace placeholder glyphs with the app's original vector icons during integration. Exact source assets and dp values were not available.</p>
+</main></body></html>
