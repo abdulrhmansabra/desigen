@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="170" viewBox="0 0 760 170" fill="none">
+  <title>AI Shorts visual component icon references — recreated vectors, not recovered originals</title>
+  <rect width="760" height="170" rx="18" fill="#080B18"/>
+  <g stroke="#C7C8F2" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <!-- sparkle -->
+    <path d="M55 25 L63 44 L82 52 L63 60 L55 79 L47 60 L28 52 L47 44 Z" fill="#A65BFA" stroke="#E7C7FF"/>
+    <path d="M87 27 L91 36 L100 40 L91 44 L87 53 L83 44 L74 40 L83 36 Z" fill="#F16CCB" stroke="#F8C7F1" stroke-width="2"/>
+    <!-- image -->
+    <rect x="145" y="28" width="48" height="43" rx="5"/>
+    <circle cx="158" cy="41" r="3"/>
+    <path d="M151 63 L164 49 L173 58 L180 50 L188 63"/>
+    <!-- text to video -->
+    <rect x="250" y="28" width="44" height="46" rx="4"/>
+    <path d="M260 40 H284 M260 49 H280 M260 58 H275"/>
+    <path d="M260 66 L265 62"/>
+    <!-- crown -->
+    <path d="M346 42 L359 55 L371 33 L383 55 L397 42 L392 69 H351 Z" fill="#F16CCB" stroke="#F6B4E3"/>
+    <path d="M353 76 H390"/>
+    <!-- plus in circle -->
+    <circle cx="470" cy="51" r="24" fill="#111B36" stroke="#354365"/>
+    <path d="M470 39 V63 M458 51 H482"/>
+    <!-- info -->
+    <circle cx="560" cy="51" r="23" fill="#B9B9E9" stroke="none"/>
+    <path d="M560 48 V65 M560 38 V40" stroke="#10172C" stroke-width="4"/>
+    <!-- chevron -->
+    <path d="M650 35 L666 51 L650 67" stroke="#D9DAF7" stroke-width="4"/>
+  </g>
+  <g fill="#AEB0D1" font-family="Arial, sans-serif" font-size="12">
+    <text x="30" y="112">Sparkle</text>
+    <text x="143" y="112">Image</text>
+    <text x="244" y="112">Text card</text>
+    <text x="348" y="112">Crown</text>
+    <text x="445" y="112">Add</text>
+    <text x="539" y="112">Info</text>
+    <text x="638" y="112">Chevron</text>
+    <text x="25" y="145" fill="#6F7598">Editable reference vectors — replace with original app assets when available.</text>
+  </g>
+</svg>
