@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 768" role="img" aria-label="AI Shorts Minimax H3 card background">
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#17152f"/>
+      <stop offset=".38" stop-color="#10142e"/>
+      <stop offset="1" stop-color="#050b20"/>
+    </linearGradient>
+    <linearGradient id="sky" x1="0" y1="0" x2=".95" y2=".2">
+      <stop offset="0" stop-color="#f17bb4"/>
+      <stop offset=".24" stop-color="#e6a1c2"/>
+      <stop offset=".52" stop-color="#8d6cae"/>
+      <stop offset=".78" stop-color="#293568"/>
+      <stop offset="1" stop-color="#07112c"/>
+    </linearGradient>
+    <radialGradient id="sunset" cx="22%" cy="53%" r="60%">
+      <stop offset="0" stop-color="#ffd09c" stop-opacity=".98"/>
+      <stop offset=".34" stop-color="#f18db0" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#8c55a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#7b6ba8"/>
+      <stop offset="1" stop-color="#19234b"/>
+    </linearGradient>
+    <linearGradient id="rightShade" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#11142f" stop-opacity="0"/>
+      <stop offset=".42" stop-color="#071027" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#050b20"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff9bc8"/>
+      <stop offset=".25" stop-color="#8d78ff"/>
+      <stop offset=".7" stop-color="#243d91"/>
+      <stop offset="1" stop-color="#a45cf4"/>
+    </linearGradient>
+    <filter id="blur24"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="blur8"><feGaussianBlur stdDeviation="8"/></filter>
+    <clipPath id="card"><rect x="30" y="58" width="1988" height="610" rx="78"/></clipPath>
+  </defs>
+  <rect width="2048" height="768" fill="#030817"/>
+  <g clip-path="url(#card)">
+    <rect x="30" y="58" width="1988" height="610" fill="url(#base)"/>
+    <rect x="30" y="58" width="1150" height="610" fill="url(#sky)" opacity=".82"/>
+    <ellipse cx="475" cy="390" rx="610" ry="290" fill="url(#sunset)" filter="url(#blur24)"/>
+    <path d="M30 455 L105 421 173 435 246 402 316 431 389 397 470 426 544 414 612 447 684 420 756 451 824 425 908 458 1015 440 1110 490 1170 668 30 668Z" fill="#34366e" opacity=".8" filter="url(#blur8)"/>
+    <path d="M30 500 Q150 468 255 505 T480 501 T700 526 L830 668 30 668Z" fill="#1d2b59"/>
+    <path d="M30 565 Q180 520 330 552 T610 548 Q760 540 900 588 L1040 668 30 668Z" fill="url(#water)" opacity=".92"/>
+    <path d="M30 594 Q240 570 410 595 T740 590 T990 620" fill="none" stroke="#c58fc7" stroke-opacity=".34" stroke-width="12" filter="url(#blur8)"/>
+    <path d="M570 668 Q690 560 760 470 Q820 388 910 345 Q1015 290 1125 280 Q1040 375 1000 450 Q950 555 900 668Z" fill="#271b42" opacity=".92"/>
+    <path d="M30 58 H2018 V668 H30Z" fill="url(#rightShade)"/>
+    <ellipse cx="70" cy="75" rx="180" ry="105" fill="#ff79b7" opacity=".58" filter="url(#blur24)"/>
+    <ellipse cx="2000" cy="640" rx="170" ry="130" fill="#6339d5" opacity=".2" filter="url(#blur24)"/>
+  </g>
+  <rect x="31.5" y="59.5" width="1985" height="607" rx="77" fill="none" stroke="url(#rim)" stroke-width="4" opacity=".72"/>
+  <path d="M105 61 H430" stroke="#ffacd0" stroke-width="3" stroke-linecap="round" opacity=".65" filter="url(#blur8)"/>
+  <path d="M90 665 H390" stroke="#ed6ee5" stroke-width="4" stroke-linecap="round" opacity=".72" filter="url(#blur8)"/>
+</svg>
